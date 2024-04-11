@@ -55,22 +55,13 @@ export default defineNuxtConfig({
       sessionCookie: false,
     },
 
-    appCheck: {
-      provider: 'ReCaptchaV3',
-      // site key, NOT secret key
-      key: '6Ldmc3EnAAAAABDuQi-PGLBObXMOsVlXOntAX6WQ',
-      isTokenAutoRefreshEnabled: true,
-    },
-
     config: {
-      apiKey: 'AIzaSyBKBqCHUpxMNjRJ8uhgOTK0wMGr9LkkFOA',
-      authDomain: 'nuxt-vuefire-example-spark.firebaseapp.com',
-      databaseURL:
-        'https://nuxt-vuefire-example-spark-default-rtdb.europe-west1.firebasedatabase.app',
-      projectId: 'nuxt-vuefire-example-spark',
-      storageBucket: 'nuxt-vuefire-example-spark.appspot.com',
-      messagingSenderId: '639475067598',
-      appId: '1:639475067598:web:13fc8572370163aa913e9f',
+      apiKey: "AIzaSyDzvWHVVIYY5IjjJT-GZGT0u906qqDAQ4M",
+      authDomain: "nuxt-ea32e.firebaseapp.com",
+      projectId: "nuxt-ea32e",
+      storageBucket: "nuxt-ea32e.appspot.com",
+      messagingSenderId: "767147140807",
+      appId: "1:767147140807:web:112b3f335c21392e1600e2"
     },
   },
 
