@@ -1,4 +1,4 @@
-<!-- <script setup lang="ts">
+<script setup lang="ts">
 import {
   push,
   remove,
@@ -153,8 +153,4 @@ function removeTodo(id: string) {
 .list-leave-active {
   position: absolute;
 }
-</style> -->
-<script></script>
-<template>
-
-</template>
+</style>

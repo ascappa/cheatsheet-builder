@@ -7,8 +7,12 @@ import {
   updateDoc,
 } from 'firebase/firestore'
 import { updateProfile } from 'firebase/auth'
-import { count } from 'console';
+
 const myCount = ref(0)
+let id = setInterval(() => myCount.value++, 1000)
+onUnmounted(() => {
+  clearInterval(id)
+})
 const db = useFirestore()
 const user = useCurrentUser()
 
@@ -71,7 +75,6 @@ watch(user, async (currentUser, previousUser) => {
     }
   }
 })
-setInterval(() => myCount.value++, 1000)
 </script>
 
 <template>
